@@ -25,7 +25,7 @@ On peut implémenter un pipeline sur Jenkins ou GitHub Actions, les principaux s
 - Utilisation des groupes de sécurité AWS pour les accès au serveur (port 22 pour SSH et port 80 pour HTTP).
 - Automatisation de la configuration du serveur web par l'ajout d'un script `webserver.sh`.
 
-## Question 4 : Au-delà de la portée de cette tâche si nous sommes dans un environnement de production réel
+## Question 4 : Si nous sommes dans un environnement de production réel
 
 - Sécurité avancée : ajout de politiques IAM strictes, utilisation de VPC isolés, utilisation de Vault pour les keypairs.
-- Monitoring et gestion des logs : Utilisation de services comme AWS CloudWatch pour surveiller les performances et les logs des serveurs.
+- Monitoring et gestion des logs : Utilisation de services comme AWS CloudWatch ou DATADOG pour surveiller les performances et les logs des serveurs.
