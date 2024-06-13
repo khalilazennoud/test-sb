@@ -1,0 +1,5 @@
+region = "eu-west-2"
+key_name = "test-sb-keypair"
+environment = "test"
+instance_type = "t2.small"
+ami = "ami-07d1e0a32156d0d21"
